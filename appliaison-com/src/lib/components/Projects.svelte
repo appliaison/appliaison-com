@@ -167,8 +167,17 @@
 			{/each}
 		</div>
 
-	<!-- View More Button -->
-	<div class="text-center mt-12">
+	<!-- View More Buttons -->
+	<div class="text-center mt-12 flex flex-col sm:flex-row gap-4 justify-center">
+		<a
+			href="/gallery/propzai"
+			class="inline-flex items-center gap-2 px-6 py-3 bg-neural-blue text-white rounded-lg hover:shadow-lg hover:shadow-neural-blue/40 transition-all duration-200 font-medium"
+		>
+			<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+			</svg>
+			View PropzAI Gallery
+		</a>
 		<a
 			href="#contact"
 			class="inline-flex items-center gap-2 px-6 py-3 bg-neural-dark border-2 border-neural-blue text-neural-blue rounded-lg hover:bg-neural-blue hover:text-white transition-all duration-200 font-medium"

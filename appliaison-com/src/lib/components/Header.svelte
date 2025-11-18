@@ -13,6 +13,7 @@
 		{ label: 'About', href: '#about' },
 		{ label: 'Services', href: '#skills' },
 		{ label: 'Portfolio', href: '#projects' },
+		{ label: 'Gallery', href: '/gallery/propzai' },
 		{ label: 'Contact', href: '#contact' }
 	];
 
@@ -32,9 +33,13 @@
 	 * @param href - Target section ID
 	 */
 	function handleNavClick(event: MouseEvent, href: string) {
-		event.preventDefault();
 		mobileMenuOpen = false;
 
+		if (!href.startsWith('#')) {
+			return;
+		}
+
+		event.preventDefault();
 		const targetId = href.substring(1);
 		const target = document.getElementById(targetId);
 
