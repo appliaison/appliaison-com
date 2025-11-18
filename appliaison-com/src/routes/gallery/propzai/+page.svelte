@@ -205,8 +205,8 @@
                 "AppLiaison engineered the AI nervous system we always wanted. Our operators open PropzAI every morning to see which assets need attention, why, and which lever to pull next."
             </p>
             <div>
-                <p class="text-white font-semibold">Priya Solanki</p>
-                <p class="text-gray-400 text-sm">COO, PropzAI</p>
+                <p class="text-white font-semibold">Tracy Park</p>
+                <p class="text-gray-400 text-sm">CMO, PropzAI</p>
             </div>
         </div>
 
